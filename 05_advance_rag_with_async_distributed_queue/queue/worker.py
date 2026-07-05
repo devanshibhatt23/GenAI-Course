@@ -58,3 +58,4 @@ async def process_query(query: str) :
     )
 
     print("🤖 Response:", response.choices[0].message.content, "\n\n\n")
+    return response.choices[0].message.content
