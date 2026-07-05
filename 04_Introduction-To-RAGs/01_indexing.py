@@ -39,7 +39,7 @@ embedding_model = OpenAIEmbeddings(
 # using [embedding_model], create vector embeddings of [texts] and store in DB
 vector_store = QdrantVectorStore.from_documents(
     documents=texts,
-    url="http://localhost:6333",
+    url="http://vector-db:6333",
     collection_name="learning_vector",
     embedding=embedding_model,
 )
