@@ -1,0 +1,30 @@
+{
+  "name": "genai-course",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "homepage": "https://github.com/devanshibhatt23/GenAI-Course-#readme",
+  "bugs": {
+    "url": "https://github.com/devanshibhatt23/GenAI-Course-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshibhatt23/GenAI-Course-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
